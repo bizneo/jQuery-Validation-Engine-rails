@@ -132,7 +132,7 @@
 		    "alertText": "* Por favor entrar HELLO"
 		},
 		"validate_encoding": {
-		    "regex": /^[\n -'*-@[-~£¥-¨ª¬®°²µ·¹-º½¿-ÂÄÆ-ÏÒ-ÔÖ-Üß-âäæ-ëí-ñó-ôö-ü˙˝Ω€]$/,
+		    "regex": /^[\n -'*-@\[-~£¥-¨ª¬®°²µ·¹-º½¿-ÂÄÆ-ÏÒ-ÔÖ-Üß-âäæ-ëí-ñó-ôö-ü˙˝Ω€]*$/,
 		    "alertText": "* Este campo tiene caracteres inválidos"
 		}
 	    };

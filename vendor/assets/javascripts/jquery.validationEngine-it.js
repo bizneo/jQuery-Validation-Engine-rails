@@ -110,7 +110,7 @@
                     "alertTextLoad": "* Caricamento, attendere per favore"
                 },
 		"validate_encoding": {
-		    "regex": /^[\n -'*-@[-~£¥-¨ª¬®°²µ·¹-º½¿-ÂÄÆ-ÏÒ-ÔÖ-Üß-âäæ-ëí-ñó-ôö-ü˙˝Ω€]$/,
+		    "regex": /^[\n -'*-@\[-~£¥-¨ª¬®°²µ·¹-º½¿-ÂÄÆ-ÏÒ-ÔÖ-Üß-âäæ-ëí-ñó-ôö-ü˙˝Ω€]*$/,
 		    "alertText": "* Caratteri non validi presenti"
 		}
             };
