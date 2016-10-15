@@ -25,7 +25,7 @@
                     "regex": "none",
                     "alertText": "* Numero di caselle da selezionare in eccesso"
                 },
-				        "groupRequired": {
+		"groupRequired": {
                     "regex": "none",
                     "alertText": "* Almeno un campo del gruppo deve essere compilato"
                 },
@@ -74,7 +74,7 @@
                     "alertText": "Ammesse le lettere solo all'inizio del campo"
                 },
                 "ipv4": {
-                	"regex": /^((([01]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))[.]){3}(([0-1]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))$/,
+                    "regex": /^((([01]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))[.]){3}(([0-1]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))$/,
                     "alertText": "* IP non corretto"
                 },
                 "url": {
@@ -85,7 +85,7 @@
                     "regex": /^[0-9\ ]+$/,
                     "alertText": "* Solo numeri"
                 },
-				        "onlyLetter": {
+		"onlyLetter": {
                     "regex": /^[a-zA-Z\ \']+$/,
                     "alertText": "* Solo lettere"
                 },
@@ -108,8 +108,11 @@
                     "alertText": "* Questo nome � gi� stato utilizzato",
                     "alertTextOk": "* Questo nome � disponibile",
                     "alertTextLoad": "* Caricamento, attendere per favore"
-                }
-
+                },
+		"validate_encoding": {
+		    "regex": /^[\n -'*-@\[-~£¥-¨ª¬®°²µ·¹-º½¿-ÂÄÆ-ÏÒ-ÔÖ-Üß-âäæ-ëí-ñó-ôö-ü˙˝Ω€]*$/,
+		    "alertText": "* Caratteri non validi presenti"
+		}
             };
 
         }
