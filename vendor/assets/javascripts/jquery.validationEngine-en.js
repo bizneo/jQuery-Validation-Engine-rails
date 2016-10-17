@@ -183,7 +183,7 @@
 		    "alertText4": "yyyy-mm-dd hh:mm:ss AM|PM"
 		},
 		"validate_encoding": {
-		    "regex": /^[\n -'*-@\[-~£¥-¨ª¬®°²µ·¹-º½¿-ÂÄÆ-ÏÒ-ÔÖ-Üß-âäæ-ëí-ñó-ôö-ü˙˝Ω€]*$/,
+		    "regex": /^[\n -~¡-¤¨-«®-¯´-µ·¹-»½¿-ÂÄÆ-ÉË-ÍÏÑ-ÔÖØ-ÜÞ-âäæ-ôöø-üĀ-ăđ-ĕħĪ-ĭŋ-ŏŪ-ŭˇ˘Ω€]*$/,
 		    "alertText": "* This field has invalid characters"
 		}
 	    };
