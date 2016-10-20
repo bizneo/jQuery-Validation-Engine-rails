@@ -123,7 +123,7 @@
                     "alertText": "Veuillez taper le mot HELLO"
                 },
 		"validate_encoding": {
-                    "regex": /^[\n -~¡-¤¨-«®-¯´-µ·¹-»½¿-ÂÄÆ-ÉË-ÍÏÑ-ÔÖØ-ÜÞ-âäæ-ôöø-üĀ-ăđ-ĕħĪ-ĭŋ-ŏŪ-ŭˇ˘Ω€]*$/,
+                    "regex": /^[\n -\]_a-~¡-£¥§©-¬®±-²µ·¹-º¿-ÂÄÆ-ÔÖ-ÜÞ-âäæ-ôö-üþ€]*$/,
                     "alertText": "* Caractères invalides"
 		}
             };
