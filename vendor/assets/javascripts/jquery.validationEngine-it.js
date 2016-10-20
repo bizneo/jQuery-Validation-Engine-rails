@@ -101,16 +101,16 @@
                     "file": "ajaxValidateFieldName",
                     "extraData": "name=eric",
                     "alertTextLoad": "* Caricamento, attendere per favore",
-                    "alertText": "* Questo user � gi� stato utilizzato"
+                    "alertText": "* Questo user è già stato utilizzato"
                 },
                 "ajaxNameCall": {
                     "file": "ajaxValidateFieldName",
-                    "alertText": "* Questo nome � gi� stato utilizzato",
-                    "alertTextOk": "* Questo nome � disponibile",
+                    "alertText": "* Questo nome è già stato utilizzato",
+                    "alertTextOk": "* Questo nome è disponibile",
                     "alertTextLoad": "* Caricamento, attendere per favore"
                 },
 		"validate_encoding": {
-		    "regex": /^[\n -~¡-¤¨-«®-¯´-µ·¹-»½¿-ÂÄÆ-ÉË-ÍÏÑ-ÔÖØ-ÜÞ-âäæ-ôöø-üĀ-ăđ-ĕħĪ-ĭŋ-ŏŪ-ŭˇ˘Ω€]*$/,
+		    "regex": /^[\n -\]_a-~¡-£¥§©-¬®±-²µ·¹-º¿-ÂÄÆ-ÔÖ-ÜÞ-âäæ-ôö-üþ€]*$/,
 		    "alertText": "* Caratteri non validi presenti"
 		}
             };
