@@ -187,7 +187,7 @@
 		    "alertText4": "aaaa-mm-dd hh:mm:ss AM|PM"
 		},
 		"validate_encoding": {
-		    "regex": /^[\n -\]_a-~¡-£¥§©-¬®±-²µ·¹-º¿-ÂÄÆ-ÔÖ-ÜÞ-âäæ-ôö-üþ€]*$/,
+		    "regex": /^[\n -\]_a-~¡-£¥§©-¬®±-²µ·¹-º¿-ÄÆ-ÜÞ-äæ-üþ€]*$/,
 		    "alertText": "* Caracteres inválidos presentes"
 		}
             };
